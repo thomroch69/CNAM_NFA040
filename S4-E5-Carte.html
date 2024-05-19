@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 basic page">
+    <meta name="author" content="Thomas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #carte {
+            height: 500px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(./Images/carte_france.jpg);
+            z-index: 1;
+        }
+
+        #carte>.paris {
+            height: 50px;
+            background-image: url(./Images/nuage.png);
+            position: relative;
+            top: 40px;
+            left: 100px;
+            z-index: 2;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id='carte'>
+        <i class='paris'></i>
+        <i class='lyon'></i>
+    </div>
+</body>
+
+</html>

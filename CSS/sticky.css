@@ -1,0 +1,21 @@
+body {
+    background: #ffffff;
+}
+
+div.menu {
+    background: #04fe21;
+    height: 150px;
+    width: 100px;
+    position: sticky;
+    top: 50px;
+}
+
+footer{
+    background: #040cfe;
+    display: block;
+    position: sticky;
+    height: fit-content;
+    width: fit-content;
+    bottom: 0%;
+    left: 90%;
+}

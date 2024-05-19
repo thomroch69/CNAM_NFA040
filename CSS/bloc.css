@@ -1,0 +1,35 @@
+body {
+    background: #ffffff;
+}
+
+div.bloc1 {
+    background: #04fe21;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+
+}
+
+div.bloc2 {
+    background: #1212b8;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+ 
+
+}
+
+div.bloc3 {
+    background: #de1d40;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+
+}

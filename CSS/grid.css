@@ -1,0 +1,32 @@
+.Layout {
+    display : grid;
+    grid-template-columns: 200px 10px 1fr;
+    grid-template-rows: 70px 10px auto 10px 50px;
+
+    grid-template-areas: 
+    "Header Header Header"
+    "   .     .      .  "
+    "Aside    .     Main "
+    "Aside    .      .   "
+    "Aside    .    Footer";
+}
+
+.Header {
+grid-area: Header;
+}
+
+.Main {
+    grid-area: Main; /* 1 */
+  }
+  
+  .Aside {
+    grid-area: Aside; /* 1 */
+  }
+  
+  .Footer {
+    grid-area: Footer; /* 1 */
+}
+
+.container{
+    display: grid;
+}

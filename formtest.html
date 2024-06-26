@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Test</title>
+    <meta name="description" content="The HTML5 basic page">
+    <meta name="author" content="Thomas">
+    <link rel="stylesheet" href="./css/formtest.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form class='contact_form' action='http://www.actioncreation.fr/cnam/HTML_CSS/chapitre4/validateForm.php'
+        method='post' name='contact_form' target='_blank'>
+
+        <ul>
+
+            <li>
+                <h2>
+                    Nous contacter
+                </h2>
+                <span class="champ_obligatoire">
+                    *Information obligatoire*
+                </span>
+            </li>
+
+            <li>
+                <label for="1_nom">Nom et prénom :</label>
+                <input type="text" name="nom" id="1_nom" placeholder="ROCHETTE Thomas" required>
+            </li>
+
+            <li>
+                <label for="l_email">Email : </label>
+                <input type="email" name="email" id="l_email" placeholder="thomroch@aol.com" required>
+                <span class="form_aide">Format adapté : "lenom@ledomaine.com"</span>
+            <li>
+
+            <li>
+                <label for="l_siteweb">Site Web : </label>
+                <input type="url" name="siteweb" id="l_siteweb" placeholder="www.trmanagement.com" required>
+                <span class="form_aide">Format adapté : "http://www.ledomaine.fr"</span>
+            <li>
+
+            <li>
+                <label for="l_message">Message : </label>
+                <textarea name="message" cols="45" rows="5" id="l_message"></textarea>
+            <li>
+
+            <li>
+                <button class="validatebutton" type="submit">Envoyer</button>
+            </li>
+
+            <li>
+                <button class="resetbutton" type="reset">Effacer</button>
+            </li>
+
+        </ul>
+
+
+    </form>
+</body>
+
+</html>
